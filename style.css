@@ -1,0 +1,98 @@
+*_{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header nav ul li{
+    display: inline; 
+    margin-left: 40px;
+}
+.sub-nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+.sub-nav span{
+    color:blue;
+}
+.hero{
+    text-align: center;
+    padding-top: 40px;
+}
+.hero h1{
+    margin-bottom: 30px;
+}
+.link{
+    margin-top: 12px;
+}
+.link a{
+    margin: 10px;
+}
+.second{
+    background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2022/09/use-48mp-iphone-14-pro-camera.jpg?quality=82&strip=all);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: whitesmoke;
+    height: 60vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px
+}
+.second   h1{
+    margin-bottom: 6px;
+}
+.second h5{
+    margin-bottom: 15px;
+}
+.second img{
+    width: 400px;
+}
+ 
+.main{
+    display: flex;
+    margin: 10px;
+}
+.box{
+    width: 49%;
+ background-color: black;
+  color: white;
+  margin: 6px;
+  text-align: center;
+padding-top: 16px;   
+}
+ .outer{
+    display: flex;
+    height: 89vh;
+ }
+ .box2{
+    background-color: black;
+    color: white;
+    width: 88%;
+    margin: 8px;
+    text-align: center;
+    padding-top: 16px;
+ }
+ .card{
+    display: flex;
+ }
+.box3{
+    width: 49%;
+    background-color: black;
+    color: white;
+    margin: 6px;
+    text-align: center;
+    padding-top: 16px;
+}
+.main-footerP{
+    display: flex;
+    justify-content: space-between;
+}
